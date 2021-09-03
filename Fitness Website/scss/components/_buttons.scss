@@ -1,0 +1,15 @@
+button {
+    background-color: $light-blue;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    width: 150px;
+    text-transform: uppercase;
+    margin: 1rem;
+    &:hover {
+        cursor: pointer;
+        background-color: $dark-grey;
+        color: $light-blue;
+    }
+}

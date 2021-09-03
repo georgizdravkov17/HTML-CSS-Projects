@@ -1,0 +1,30 @@
+header#site_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: $light-grey;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    #site_heading {
+        cursor: pointer;
+        margin-left: 1rem;
+    }
+    nav#header_nav {
+        ul {
+            display: flex;
+            li {
+                margin: 0.6rem;
+                padding: 0.6rem;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $light-green;
+                    }
+                }
+            }
+        }
+    }
+}

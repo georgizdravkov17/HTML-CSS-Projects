@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+    font-size: 18px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: map-get($headings-size, "large");
+}
+
+h2 {
+    font-size: map-get($headings-size, "medium");
+}
+
+h3 {
+    font-size: map-get($headings-size, "small");
+}
+
+h1,
+h2,
+h3 {
+    margin: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: $light-blue;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+p {
+    color: $light-grey;
+    margin: 0.6rem;
+    // vertical-align: baseline;
+    &.grey {
+        color: $light-grey
+    }
+    &.white {
+        color: white;
+    }
+}
+
+ul li {
+    list-style: none;
+}
+
+.dark_font {
+    color: $dark-grey
+}
+
+.light_font {
+    color: white;
+}

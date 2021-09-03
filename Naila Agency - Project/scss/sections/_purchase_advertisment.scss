@@ -1,0 +1,14 @@
+section#purchase_advertisment {
+    flex-direction: row;
+    min-height: 30vh;
+    background-color: $light-green;
+    justify-content: space-evenly;
+    box-shadow: 1px 6px 6px 8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 6px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 6px 8px rgba(0, 0, 0, 0.75);
+    button {
+        background-color: white;
+        border: 1px solid white;
+        color: black;
+    }
+}

@@ -1,0 +1,39 @@
+section#prices {
+    background-color: #FAFAFA;
+    color: $dark-grey;
+    display: flex;
+    justify-content: center;
+    div.prices_container {
+        display: flex;
+        div.prices_item {
+            display: flex;
+            flex-direction: column;
+            @include centerContent;
+            align-content: space-around;
+            padding: 5rem;
+            margin: 2rem;
+            background-color: #FFFFFF;
+            &:hover {
+                box-shadow: 3px 2px 8px 8px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 3px 2px 8px 8px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 3px 2px 8px 8px rgba(0, 0, 0, 0.75);
+            }
+            span {
+                color: black;
+            }
+            h1 {
+                color: $light-green;
+                margin: 1rem;
+            }
+            ul {
+                li {
+                    margin-top: 1rem;
+                }
+            }
+            button:hover {
+                background-color: #FFFFFF;
+                color: black;
+            }
+        }
+    }
+}

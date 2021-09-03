@@ -1,0 +1,18 @@
+section#team {
+    .team__wrapper {
+        display: flex;
+        &>* {
+            flex-basis: 100%;
+            margin: 0.5rem;
+        }
+        .item {
+            padding: 2rem;
+            margin: 1rem;
+            .info_holder {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    }
+}

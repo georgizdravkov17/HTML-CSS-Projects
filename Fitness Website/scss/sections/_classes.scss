@@ -1,0 +1,25 @@
+section#classes_section {
+    background-color: $dark-grey;
+    &>p {
+        width: 60%;
+    }
+    .row_container {
+        display: flex;
+        margin-top: 1rem;
+        padding: 1.5rem;
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+            i {
+                font-size: 3rem;
+                margin-bottom: 0.5rem;
+                color: $light-blue
+            }
+            p {
+                width: 70%;
+            }
+        }
+    }
+}

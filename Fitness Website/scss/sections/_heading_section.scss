@@ -1,0 +1,6 @@
+section#heading_section {
+    min-height: 100vh;
+    @include centerContent;
+    background: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .6)), url('../../images/image-bg.jpg') center center no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,31 @@
+section#home {
+    display: flex;
+    flex-direction: column;
+    @include centerContent;
+    color: white;
+    background-color: $light-grey;
+    padding: 9rem;
+    h1 {
+        font-size: $large-heading;
+        padding: 0.5rem;
+        border-right: 2px solid white;
+    }
+    p {
+        width: 50%;
+    }
+    div.buttons_holder {
+        button {
+            &:nth-child(1) {
+                &:hover {
+                    background-color: $light-grey;
+                }
+            }
+            &:nth-child(2) {
+                background-color: $light-grey;
+                &:hover {
+                    background-color: $light-green;
+                }
+            }
+        }
+    }
+}

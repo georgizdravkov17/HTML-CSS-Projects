@@ -1,0 +1,20 @@
+section#pricing_section {
+    background-color: $darkest-grey;
+    .packages_container {
+        display: flex;
+        flex-direction: row;
+        &>* {
+            flex-basis: 100%;
+        }
+        .package_item {
+            background-color: $dark-grey;
+            padding: 10rem;
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+            justify-content: center;
+        }
+    }
+}

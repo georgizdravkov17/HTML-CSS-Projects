@@ -1,0 +1,15 @@
+section#about {
+    .about__wrapper {
+        display: flex;
+        &>* {
+            flex-basis: 100%;
+            padding: 2rem;
+            margin: 1rem;
+        }
+        .info_holder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

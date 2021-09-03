@@ -1,0 +1,23 @@
+.header {
+    background: rgb(59, 58, 57);
+    background: linear-gradient(0deg, rgba(59, 58, 57, 1) 12%, rgba(4, 4, 4, 1) 89%);
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
+    &__navigation {
+        ul {
+            display: flex;
+            li {
+                a {
+                    &:hover {
+                        border-bottom: 3px solid $golden--color;
+                    }
+                }
+            }
+        }
+    }
+}

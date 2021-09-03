@@ -1,0 +1,12 @@
+button {
+    padding: 0.8rem;
+    margin: 1rem;
+    width: 140px;
+    border: 1px solid $light-green;
+    color: white;
+    background-color: $light-green;
+    font-style: bold;
+    &:hover {
+        cursor: pointer;
+    }
+}

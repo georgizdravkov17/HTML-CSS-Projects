@@ -1,0 +1,14 @@
+section#questions {
+    color: $dark-grey;
+    div.question {
+        background-color: #F0F0F0;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8rem;
+        margin: 0.3rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

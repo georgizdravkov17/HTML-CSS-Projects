@@ -1,0 +1,22 @@
+section#menu {
+    .wrapper {
+        display: flex;
+        &>* {
+            flex-basis: 100%
+        }
+        .item {
+            display: flex;
+            padding: 1rem;
+            .img_holder {
+                img {
+                    width: 100px;
+                }
+            }
+            .info_holder {
+                h5 {
+                    margin: 0.9rem;
+                }
+            }
+        }
+    }
+}

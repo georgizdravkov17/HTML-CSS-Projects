@@ -1,0 +1,29 @@
+section#contact_section {
+    min-height: 80vh;
+    background: linear-gradient(to right, rgba(0, 174, 218, .5), rgba(0, 174, 218, .9)), url('/images/cta_bg.jpg') center center no-repeat;
+    background-size: cover;
+    @include centerContent;
+    p {
+        color: white;
+    }
+    .form_container {
+        // display: flex;
+        margin: 1rem;
+        input {
+            border: none;
+            border-bottom-left-radius: 0.5rem;
+            border-top-left-radius: 0.5rem;
+            padding: 1rem;
+            min-width: 450px;
+        }
+        button {
+            margin-left: 0;
+            border-radius: 0;
+            background-color: $darkest-grey;
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+section#contacts {
+    color: $dark-grey;
+    flex-direction: row;
+    align-items: stretch;
+    div.info_holder {
+        div {
+            display: flex;
+            flex-direction: row;
+        }
+        h1 {
+            margin: 1rem;
+        }
+        p:nth-child(1) {
+            width: 80%;
+        }
+    }
+    div.form_holder {
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                padding: 1rem;
+                margin-bottom: 0.8rem;
+                border: 1px solid $light-grey;
+            }
+            textarea {
+                padding: 1rem;
+            }
+            button {
+                width: 30%;
+                margin-left: 0.1rem;
+            }
+        }
+    }
+    .item {
+        flex-basis: 50%;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+        align-content: flex-start;
+    }
+}

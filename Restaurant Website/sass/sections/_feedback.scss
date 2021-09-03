@@ -1,0 +1,41 @@
+section#feedback {
+    background-image: url("../../images/parallax-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .feedback__wrapper {
+        display: flex;
+        flex-direction: column;
+        .row {
+            display: flex;
+            margin: 1rem;
+            padding: 1rem;
+            &>* {
+                flex-basis: 100%;
+            }
+            .item {
+                margin: 2rem;
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                &>* {
+                    flex-basis: 100%;
+                }
+                .quote_item {
+                    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+                    opacity: 0.6;
+                    background-color: #BFBEBC;
+                    color: $black--color;
+                    padding: 2rem;
+                }
+                .img_holder {
+                    width: 80px;
+                    text-align: center;
+                    img {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

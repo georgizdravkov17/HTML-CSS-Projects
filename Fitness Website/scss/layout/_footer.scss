@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    padding: 5rem;
+    background-color: $darkest-grey;
+    .footer_item {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .social_media_items {
+            li {
+                line-height: 2rem;
+            }
+        }
+    }
+}

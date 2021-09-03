@@ -1,0 +1,10 @@
+@mixin centerContent {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin sloganCommonStyles {
+    min-height: 80vh;
+    background: black;
+    object-position: center;
+}

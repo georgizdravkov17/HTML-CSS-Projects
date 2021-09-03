@@ -1,0 +1,15 @@
+section#blog {
+    background-image: url("../../images/parallax-04.jpg");
+    .wrapper {
+        display: flex;
+        &>* {
+            flex-basis: 100%;
+        }
+        .blog__card {
+            padding: 1.5rem;
+            margin: 1rem;
+            width: 50%;
+            text-align: center;
+        }
+    }
+}

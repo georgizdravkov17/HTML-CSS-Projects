@@ -1,0 +1,25 @@
+.footer {
+    &__item {
+        display: flex;
+        &>* {
+            flex-basis: 100%;
+        }
+    }
+    &__navigation {
+        background-color: $grey--color;
+        padding: 2rem;
+        &>* {
+            padding: 2rem;
+        }
+        .day_holder {
+            padding: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__info {
+        align-items: center;
+        background-color: $darkGrey--color;
+        padding: 1rem;
+    }
+}

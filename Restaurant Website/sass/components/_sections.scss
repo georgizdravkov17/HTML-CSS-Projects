@@ -1,0 +1,7 @@
+section {
+    min-height: 110vh;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    @include centerContent;
+}

@@ -1,0 +1,9 @@
+section.slogan {
+    @include sloganCommonStyles;
+    &.first {
+        background-image: url("../../images/parallax-023.jpg");
+    }
+    &.second {
+        background-image: url("../../images/parallax-03.jpg");
+    }
+}

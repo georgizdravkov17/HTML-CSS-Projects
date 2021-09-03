@@ -1,0 +1,8 @@
+section#advertisment {
+    display: flex;
+    flex-direction: column;
+    @include centerContent;
+    min-height: 100vh;
+    color: white;
+    background-image: url('../../images/home-background.jpg');
+}

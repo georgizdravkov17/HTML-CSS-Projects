@@ -1,0 +1,17 @@
+section#portfolio {
+    color: $dark-grey;
+    display: flex;
+    flex-direction: column;
+    @include centerContent;
+    div.img_container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        div.img_holder {
+            flex-basis: 30%;
+            margin: 0.5rem;
+            display: flex;
+            align-items: stretch;
+        }
+    }
+}

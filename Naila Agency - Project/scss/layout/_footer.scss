@@ -1,0 +1,33 @@
+#site_footer {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: $dark-grey;
+    padding: 2rem;
+    #footer_nav {
+        h1 {
+            margin-bottom: 0.5rem;
+            color: black;
+            font-style: italic;
+        }
+        a:hover {
+            color: $light-green;
+        }
+    }
+    #social_media_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        i {
+            font-size: 25px;
+            color: black;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

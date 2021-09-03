@@ -1,0 +1,16 @@
+section#about {
+    color: $light-grey;
+    div.holder {
+        display: flex;
+        div.item {
+            margin: 1rem;
+            flex-basis: 50%;
+        }
+        div.info_holder {
+            justify-content: space-between;
+            p {
+                width: 90%;
+            }
+        }
+    }
+}

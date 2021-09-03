@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    padding: 0.6rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-blue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    .nav_list {
+        display: flex;
+        .list_item {
+            margin: 0.5rem;
+            a {
+                color: white;
+                &:hover {
+                    color: $light-grey;
+                }
+            }
+        }
+    }
+}

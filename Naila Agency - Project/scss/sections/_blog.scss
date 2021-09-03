@@ -1,0 +1,43 @@
+section#blog {
+    color: $dark-grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    div.articles_container {
+        display: flex;
+        justify-content: center;
+        div.article_item {
+            margin: 1rem;
+            div.article_img_holder {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                position: relative;
+                margin-bottom: 0.6rem;
+                span {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background-color: $light-green;
+                    padding: 0.5rem;
+                    color: white;
+                }
+            }
+            div.article_info_holder {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h3 {
+                    a {
+                        color: black;
+                        &:hover {
+                            color: $light-green;
+                        }
+                    }
+                }
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

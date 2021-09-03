@@ -1,0 +1,19 @@
+section#team {
+    color: $dark-grey;
+    div.img_container {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        div.img_holder {
+            display: flex;
+            align-items: stretch;
+            flex-basis: 27%;
+            margin: 1rem;
+            &:hover {
+                box-shadow: -1px 6px 10px 6px rgba(51, 46, 46, 0.75);
+                -webkit-box-shadow: -1px 6px 10px 6px rgba(51, 46, 46, 0.75);
+                -moz-box-shadow: -1px 6px 10px 6px rgba(51, 46, 46, 0.75);
+            }
+        }
+    }
+}

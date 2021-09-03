@@ -1,0 +1,27 @@
+section#benefits_section {
+    .benefit_item {
+        display: flex;
+        &>* {
+            flex-basis: 100%;
+        }
+        .info_holder {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            align-items: center;
+            ul {
+                li {
+                    color: $light-grey;
+                }
+            }
+            // &:nth-child(2) {
+            //     .img_holder {
+            //         order: 2;
+            //     }
+            //     .info_holder {
+            //         order: 1;
+            //     }
+            // }
+        }
+    }
+}
